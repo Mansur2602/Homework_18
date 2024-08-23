@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{ 
+    background: #3F72AF; 
+ 
+} 
+.box{ 
+    background: #F9F7F7; 
+    width: 600px; 
+    height: 450px; 
+   margin: auto;
+   margin-top: 287px;
+    border-radius: 20px; 
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25); 
+ 
+} 
+ 
+h1{ 
+    font-family: "Ubuntu", sans-serif; 
+    font-size: 40px; 
+    font-weight:400; 
+    line-height: 45.96px; 
+    padding-left: 151px; 
+} 
+ 
+.main{ 
+    /* border: 1px solid rgba(177, 177, 177, 0.4); 
+    border-radius: 5px;  */
+    width: 250px; 
+    height: 32px; 
+    margin-left: 175px;
+    display: flex;
+    align-items: center;
+    
+   
+} 
+ 
+ 
+input{ 
+    border: 1px solid rgba(177, 177, 177, 0.4); 
+border-radius: 5px; 
+width: 205px; 
+height: 32px; 
+font-family: "Ubuntu", sans-serif; 
+font-weight: 400; 
+font-size: 12px; 
+color: #7b7b7b; 
+padding: 0  10.82px; 
+
+
+} 
+ 
+.plus{ 
+    border-radius: 0 5px 5px 0;
+    width: 45px;
+    height: 32px;
+background-color: #3F72AF;
+border: none;
+
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+width: 500px;
+height: 0px;
+margin-top: 15.49px;
+}
+
+.list{
+    border-radius: 5px;
+width: 490px;
+height: 55px;
+background-color: #DBE2EF;
+margin-top: 24.16px;
+margin-left: 55px;
+display: flex;
+justify-content: space-between;
+pad: 231px;
+}
+
+.checkbox{
+    width: 31px;
+    height: 31px;
+    margin-top: 13.79px;
+    margin-left: 13.79px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #000;
+}
+
+.write{
+    width: 31px;
+height: 32px;
+/* margin-left: 231px;
+margin-top: 6.75px; */
+background: none;
+border: none;
+white-space: nowrap;
+}
+
+.delete{
+    width: 31px;
+height: 32px;
+/* margin-top: 6.75px;
+margin-left: 16px; */
+background: none;
+border: none;
+white-space: nowrap;
+}
+
+
+.text{
+    width: 163.88px;
+height: 30px;
+display: flex;
+}
+
+.buttons{
+    width: 73px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    pad: 16px;
+    margin-top: 6.75px;
+    margin-right: 9.21px;
+
+}
